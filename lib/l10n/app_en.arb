@@ -1,0 +1,310 @@
+{
+  "@@locale": "en",
+  "home": "Home",
+  "@home": {
+    "description": "Home navigation item",
+    "type": "text"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings navigation item",
+    "type": "text"
+  },
+  "profile": "Profile",
+  "@profile": {
+    "description": "Profile section title",
+    "type": "text"
+  },
+  "website_title": "Ouedlaou Registry",
+  "@website_title": {
+    "description": "Website title",
+    "type": "text"
+  },
+  "search": "Search",
+  "@search": {
+    "description": "Search action",
+    "type": "text"
+  },
+  "notifications": "Notifications",
+  "@notifications": {
+    "description": "Notifications section",
+    "type": "text"
+  },
+  "messages": "Messages",
+  "@messages": {
+    "description": "Messages section",
+    "type": "text"
+  },
+  "account": "Account",
+  "@account": {
+    "description": "Account section",
+    "type": "text"
+  },
+  "edit": "Edit",
+  "@edit": {
+    "description": "Edit action",
+    "type": "text"
+  },
+  "delete": "Delete",
+  "@delete": {
+    "description": "Delete action",
+    "type": "text"
+  },
+  "save": "Save",
+  "@save": {
+    "description": "Save action",
+    "type": "text"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel action",
+    "type": "text"
+  },
+  "confirm": "Confirm",
+  "@confirm": {
+    "description": "Confirm action",
+    "type": "text"
+  },
+  "back": "Back",
+  "@back": {
+    "description": "Navigation back",
+    "type": "text"
+  },
+  "next": "Next",
+  "@next": {
+    "description": "Next step",
+    "type": "text"
+  },
+  "done": "Done",
+  "@done": {
+    "description": "Completion status",
+    "type": "text"
+  },
+  "loading": "Loading...",
+  "@loading": {
+    "description": "Loading state",
+    "type": "text"
+  },
+  "error": "Error",
+  "@error": {
+    "description": "Error state",
+    "type": "text"
+  },
+  "welcome": "Welcome",
+  "@welcome": {
+    "description": "Welcome message",
+    "type": "text"
+  },
+  "signIn": "Sign In",
+  "@signIn": {
+    "description": "Sign in action",
+    "type": "text"
+  },
+  "signUp": "Sign Up",
+  "@signUp": {
+    "description": "Sign up action",
+    "type": "text"
+  },
+  "logOut": "Log Out",
+  "@logOut": {
+    "description": "Log out action",
+    "type": "text"
+  },
+  "arabic": "Arabic",
+  "@arabic": {
+    "description": "Arabic language name",
+    "type": "text"
+  },
+  "english": "English",
+  "@english": {
+    "description": "English language name",
+    "type": "text"
+  },
+  "language": "Language",
+  "@language": {
+    "description": "Language selection option",
+    "type": "text"
+  },
+  "themeMode": "Theme Mode",
+  "@themeMode": {
+    "description": "App theme mode selection",
+    "type": "text"
+  },
+  "systemTheme": "System",
+  "@systemTheme": {
+    "description": "System theme mode option",
+    "type": "text"
+  },
+  "lightTheme": "Light",
+  "@lightTheme": {
+    "description": "Light theme mode option",
+    "type": "text"
+  },
+  "darkTheme": "Dark",
+  "@darkTheme": {
+    "description": "Dark theme mode option",
+    "type": "text"
+  },
+  "names": "Names",
+  "@names": {
+    "description": "Section title for names",
+    "type": "text"
+  },
+  "arabicName": "Arabic Name",
+  "@arabicName": {
+    "description": "Label for Arabic name",
+    "type": "text"
+  },
+  "englishName": "English Name",
+  "@englishName": {
+    "description": "Label for English name",
+    "type": "text"
+  },
+  "family": "Family",
+  "@family": {
+    "description": "Section title for family information",
+    "type": "text"
+  },
+  "father": "Father",
+  "@father": {
+    "description": "Label for father's name",
+    "type": "text"
+  },
+  "mother": "Mother",
+  "@mother": {
+    "description": "Label for mother's name",
+    "type": "text"
+  },
+  "paternalGrandfather": "Paternal Grandfather",
+  "@paternalGrandfather": {
+    "description": "Label for paternal grandfather's name",
+    "type": "text"
+  },
+  "maternalGrandfather": "Maternal Grandfather",
+  "@maternalGrandfather": {
+    "description": "Label for maternal grandfather's name",
+    "type": "text"
+  },
+  "personalInfo": "Personal Info",
+  "@personalInfo": {
+    "description": "Section title for personal information",
+    "type": "text"
+  },
+  "voterNumber": "Voter Number",
+  "@voterNumber": {
+    "description": "Label for voter number",
+    "type": "text"
+  },
+  "birthDate": "Birth Date",
+  "@birthDate": {
+    "description": "Label for birth date",
+    "type": "text"
+  },
+  "age": "Age",
+  "@age": {
+    "description": "Label for age",
+    "type": "text"
+  },
+  "years": "years",
+  "@years": {
+    "description": "Label for years unit",
+    "type": "text"
+  },
+  "birthLocation": "Birth Location",
+  "@birthLocation": {
+    "description": "Label for birth location",
+    "type": "text"
+  },
+  "address": "Address",
+  "@address": {
+    "description": "Label for address",
+    "type": "text"
+  },
+  "attachments": "Attachments",
+  "@attachments": {
+    "description": "Section title for attachments",
+    "type": "text"
+  },
+  "document": "Document",
+  "@document": {
+    "description": "Label for document",
+    "type": "text"
+  },
+  "voterCircle": "Voter Circle",
+  "@voterCircle": {
+    "description": "Label for voter circle number",
+    "type": "text"
+  },
+  "citizenDistribution": "Citizen Distribution",
+  "@citizenDistribution": {
+    "description": "Title for citizen distribution charts",
+    "type": "text"
+  },
+  "totalCitizens": "Total: {count} citizens",
+  "@totalCitizens": {
+    "description": "Shows total number of citizens",
+    "type": "text",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "idcs": "IDCS",
+  "@idcs": {
+    "description": "Digital identifier number",
+    "type": "text"
+  },
+  "cnie": "CNIE",
+  "@cnie": {
+    "description": "National Identity Card",
+    "type": "text"
+  },
+  "comments": "Comments",
+  "@comments": {
+    "description": "Section title for comments",
+    "type": "text"
+  },
+  "deleteComment": "Delete Comment",
+  "@deleteComment": {
+    "description": "Title for delete comment dialog",
+    "type": "text"
+  },
+  "deleteCommentConfirmation": "Are you sure you want to delete this comment?",
+  "@deleteCommentConfirmation": {
+    "description": "Confirmation message for deleting a comment",
+    "type": "text"
+  },
+  "syncData": "Sync Data",
+  "@syncData": {
+    "description": "Label for sync data action",
+    "type": "text"
+  },
+  "syncInProgress": "Syncing...",
+  "@syncInProgress": {
+    "description": "Message shown while syncing",
+    "type": "text"
+  },
+  "username": "Username",
+"@username": {
+  "description": "Label for username field",
+  "type": "text"
+},
+"password": "Password",
+"@password": {
+  "description": "Label for password field",
+  "type": "text"
+},
+"addComment": "Add a comment...",
+"@addComment": {
+  "description": "Hint text for comment input field",
+  "type": "text"
+},"share": "Share",
+"@share": {
+  "description": "Share action",
+  "type": "text"
+}
+
+
+
+}

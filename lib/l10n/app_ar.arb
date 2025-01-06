@@ -1,0 +1,309 @@
+{
+  "@@locale": "ar",
+  "home": "الرئيسية",
+  "@home": {
+    "description": "Home navigation item",
+    "type": "text"
+  },
+  "settings": "الإعدادات",
+  "@settings": {
+    "description": "Settings navigation item",
+    "type": "text"
+  },
+  "profile": "الملف الشخصي",
+  "@profile": {
+    "description": "Profile section title",
+    "type": "text"
+  },
+  "website_title": "سجل واد لو",
+  "@website_title": {
+    "description": "Website title",
+    "type": "text"
+  },
+  "search": "بحث",
+  "@search": {
+    "description": "Search action",
+    "type": "text"
+  },
+  "notifications": "الإشعارات",
+  "@notifications": {
+    "description": "Notifications section",
+    "type": "text"
+  },
+  "messages": "الرسائل",
+  "@messages": {
+    "description": "Messages section",
+    "type": "text"
+  },
+  "account": "الحساب",
+  "@account": {
+    "description": "Account section",
+    "type": "text"
+  },
+  "edit": "تعديل",
+  "@edit": {
+    "description": "Edit action",
+    "type": "text"
+  },
+  "delete": "حذف",
+  "@delete": {
+    "description": "Delete action",
+    "type": "text"
+  },
+  "save": "حفظ",
+  "@save": {
+    "description": "Save action",
+    "type": "text"
+  },
+  "cancel": "إلغاء",
+  "@cancel": {
+    "description": "Cancel action",
+    "type": "text"
+  },
+  "confirm": "تأكيد",
+  "@confirm": {
+    "description": "Confirm action",
+    "type": "text"
+  },
+  "back": "رجوع",
+  "@back": {
+    "description": "Navigation back",
+    "type": "text"
+  },
+  "next": "التالي",
+  "@next": {
+    "description": "Next step",
+    "type": "text"
+  },
+  "done": "تم",
+  "@done": {
+    "description": "Completion status",
+    "type": "text"
+  },
+  "loading": "جاري التحميل...",
+  "@loading": {
+    "description": "Loading state",
+    "type": "text"
+  },
+  "error": "خطأ",
+  "@error": {
+    "description": "Error state",
+    "type": "text"
+  },
+  "welcome": "مرحباً",
+  "@welcome": {
+    "description": "Welcome message",
+    "type": "text"
+  },
+  "signIn": "تسجيل الدخول",
+  "@signIn": {
+    "description": "Sign in action",
+    "type": "text"
+  },
+  "signUp": "إنشاء حساب",
+  "@signUp": {
+    "description": "Sign up action",
+    "type": "text"
+  },
+  "logOut": "تسجيل الخروج",
+  "@logOut": {
+    "description": "Log out action",
+    "type": "text"
+  },
+  "arabic": "العربية",
+  "@arabic": {
+    "description": "Arabic language name",
+    "type": "text"
+  },
+  "english": "الإنجليزية",
+  "@english": {
+    "description": "English language name",
+    "type": "text"
+  },
+  "language": "اللغة",
+  "@language": {
+    "description": "Language selection option",
+    "type": "text"
+  },
+  "themeMode": "وضع المظهر",
+  "@themeMode": {
+    "description": "App theme mode selection",
+    "type": "text"
+  },
+  "systemTheme": "النظام",
+  "@systemTheme": {
+    "description": "System theme mode option",
+    "type": "text"
+  },
+  "lightTheme": "فاتح",
+  "@lightTheme": {
+    "description": "Light theme mode option",
+    "type": "text"
+  },
+  "darkTheme": "داكن",
+  "@darkTheme": {
+    "description": "Dark theme mode option",
+    "type": "text"
+  },
+  "names": "الأسماء",
+  "@names": {
+    "description": "Section title for names",
+    "type": "text"
+  },
+  "arabicName": "الاسم بالعربية",
+  "@arabicName": {
+    "description": "Label for Arabic name",
+    "type": "text"
+  },
+  "englishName": "الاسم بالإنجليزية",
+  "@englishName": {
+    "description": "Label for English name",
+    "type": "text"
+  },
+  "family": "العائلة",
+  "@family": {
+    "description": "Section title for family information",
+    "type": "text"
+  },
+  "father": "الأب",
+  "@father": {
+    "description": "Label for father's name",
+    "type": "text"
+  },
+  "mother": "الأم",
+  "@mother": {
+    "description": "Label for mother's name",
+    "type": "text"
+  },
+  "paternalGrandfather": "الجد من الأب",
+  "@paternalGrandfather": {
+    "description": "Label for paternal grandfather's name",
+    "type": "text"
+  },
+  "maternalGrandfather": "الجد من الأم",
+  "@maternalGrandfather": {
+    "description": "Label for maternal grandfather's name",
+    "type": "text"
+  },
+  "personalInfo": "المعلومات الشخصية",
+  "@personalInfo": {
+    "description": "Section title for personal information",
+    "type": "text"
+  },
+  "voterNumber": "رقم الناخب",
+  "@voterNumber": {
+    "description": "Label for voter number",
+    "type": "text"
+  },
+  "birthDate": "تاريخ الميلاد",
+  "@birthDate": {
+    "description": "Label for birth date",
+    "type": "text"
+  },
+  "age": "السن",
+  "@age": {
+    "description": "Label for age",
+    "type": "text"
+  },
+  "years": "سنة",
+  "@years": {
+    "description": "Label for years unit",
+    "type": "text"
+  },
+  "birthLocation": "مكان الميلاد",
+  "@birthLocation": {
+    "description": "Label for birth location",
+    "type": "text"
+  },
+  "address": "العنوان",
+  "@address": {
+    "description": "Label for address",
+    "type": "text"
+  },
+  "attachments": "المرفقات",
+  "@attachments": {
+    "description": "Section title for attachments",
+    "type": "text"
+  },
+  "document": "وثيقة",
+  "@document": {
+    "description": "Label for document",
+    "type": "text"
+  },
+  "voterCircle": "الدائرة الانتخابية",
+  "@voterCircle": {
+    "description": "Label for voter circle number",
+    "type": "text"
+  },
+  "citizenDistribution": "توزيع المواطنين",
+  "@citizenDistribution": {
+    "description": "Title for citizen distribution charts",
+    "type": "text"
+  },
+  "totalCitizens": "المجموع: {count} مواطنين",
+  "@totalCitizens": {
+    "description": "Shows total number of citizens",
+    "type": "text",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "idcs": "المعرف الرقمي",
+  "@idcs": {
+    "description": "Digital identifier number",
+    "type": "text"
+  },
+  "cnie": "البطاقة",
+  "@cnie": {
+    "description": "National Identity Card",
+    "type": "text"
+  },
+  "comments": "التعليقات",
+  "@comments": {
+    "description": "Section title for comments",
+    "type": "text"
+  },
+  "deleteComment": "حذف التعليق",
+  "@deleteComment": {
+    "description": "Title for delete comment dialog",
+    "type": "text"
+  },
+  "deleteCommentConfirmation": "هل أنت متأكد أنك تريد حذف هذا التعليق؟",
+  "@deleteCommentConfirmation": {
+    "description": "Confirmation message for deleting a comment",
+    "type": "text"
+  },
+  "syncData": "مزامنة البيانات",
+  "@syncData": {
+    "description": "Label for sync data action",
+    "type": "text"
+  },
+  "syncInProgress": "جاري المزامنة...",
+  "@syncInProgress": {
+    "description": "Message shown while syncing",
+    "type": "text"
+  },
+  "username": "اسم المستخدم",
+  "@username": {
+    "description": "Label for username field",
+    "type": "text"
+  },
+  "password": "كلمة المرور",
+  "@password": {
+    "description": "Label for password field",
+    "type": "text"
+  },
+  "addComment": "أضف تعليقا...",
+  "@addComment": {
+    "description": "Hint text for comment input field",
+    "type": "text"
+  },
+  "share": "مشاركة",
+"@share": {
+  "description": "Share action",
+  "type": "text"
+}
+
+}
