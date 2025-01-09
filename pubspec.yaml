@@ -18,15 +18,15 @@ dependencies:
   google_fonts: 
   flutter_hooks: 
   sqflite_common_ffi:
-  path_provider: ^2.1.1
+  path_provider: 
   intl: ^0.19.0
   fl_chart:
   share_plus:
-  sqflite: ^2.3.0
-  path: ^1.8.3
+  sqflite: 
+  path: 
 
 dev_dependencies:
-  build_runner: ^2.4.6
+  build_runner: 
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
