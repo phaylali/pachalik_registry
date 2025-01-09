@@ -286,25 +286,113 @@
     "type": "text"
   },
   "username": "Username",
-"@username": {
-  "description": "Label for username field",
-  "type": "text"
-},
-"password": "Password",
-"@password": {
-  "description": "Label for password field",
-  "type": "text"
-},
-"addComment": "Add a comment...",
-"@addComment": {
-  "description": "Hint text for comment input field",
-  "type": "text"
-},"share": "Share",
-"@share": {
-  "description": "Share action",
-  "type": "text"
-}
-
-
-
+  "@username": {
+    "description": "Label for username field",
+    "type": "text"
+  },
+  "password": "Password",
+  "@password": {
+    "description": "Label for password field",
+    "type": "text"
+  },
+  "addComment": "Add a comment...",
+  "@addComment": {
+    "description": "Hint text for comment input field",
+    "type": "text"
+  },
+  "share": "Share",
+  "@share": {
+    "description": "Share action",
+    "type": "text"
+  },
+  "voterStatistics": "Voter Statistics",
+  "@voterStatistics": {
+    "description": "Title for the voter statistics section",
+    "type": "text"
+  },
+  "totalVoters": "Total Voters",
+  "@totalVoters": {
+    "description": "Label for total number of voters",
+    "type": "text"
+  },
+  "registeredVoters": "Registered Voters",
+  "@registeredVoters": {
+    "description": "Label for number of registered voters",
+    "type": "text"
+  },
+  "unregisteredVoters": "Unregistered Voters",
+  "@unregisteredVoters": {
+    "description": "Label for number of unregistered voters",
+    "type": "text"
+  },
+  "clearDatabase": "Clear Database",
+  "@clearDatabase": {
+    "description": "Label for the database clearing button",
+    "type": "text"
+  },
+  "deleteDatabase": "Delete Database",
+  "@deleteDatabase": {
+    "description": "Title for database deletion confirmation dialog",
+    "type": "text"
+  },
+  "deleteDatabaseConfirmation": "Are you sure you want to delete all data? This action cannot be undone.",
+  "@deleteDatabaseConfirmation": {
+    "description": "Warning message shown when attempting to delete database",
+    "type": "text"
+  },
+  "civilRegistryNumber": "Civil Registry Number",
+  "@civilRegistryNumber": {
+    "description": "Label for civil registry number field",
+    "type": "text"
+  },
+  "fatherCnie": "Father's Cnie",
+  "@fatherCnie": {
+    "description": "Label for father's Cnie field",
+    "type": "text"
+  },
+  "motherCnie": "Mother's Cnie",
+  "@motherCnie": {
+    "description": "Label for mother's Cnie field",
+    "type": "text"
+  },
+  "gender": "Gender",
+  "@gender": {
+    "description": "Label for gender field",
+    "type": "text"
+  },
+  "maritalStatus": "Marital Status",
+  "@maritalStatus": {
+    "description": "Label for marital status field",
+    "type": "text"
+  },
+  "politicalAffiliation": "Political Affiliation",
+  "@politicalAffiliation": {
+    "description": "Label for political affiliation field",
+    "type": "text"
+  },
+  "job": "Job",
+  "@job": {
+    "description": "Label for job/occupation field",
+    "type": "text"
+  },
+  "nationality": "Nationality",
+  "@nationality": {
+    "description": "Label for nationality field",
+    "type": "text"
+  },
+  "secondNationality": "Second Nationality",
+  "@secondNationality": {
+    "description": "Label for second nationality field",
+    "type": "text"
+  },
+  "grandmotherPaternal": "Paternal Grandmother",
+  "@grandmotherPaternal": {
+    "description": "Label for paternal grandmother's name",
+    "type": "text"
+  },
+  "grandmotherMaternal": "Maternal Grandmother",
+  "@grandmotherMaternal": {
+    "description": "Label for maternal grandmother's name",
+    "type": "text"
+  }
 }

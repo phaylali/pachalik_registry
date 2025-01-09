@@ -17,18 +17,20 @@ dependencies:
   shared_preferences: 
   google_fonts: 
   flutter_hooks: 
-  isar: ^3.1.0+1
-  isar_flutter_libs: ^3.1.0+1
+  sqflite_common_ffi:
   path_provider: ^2.1.1
   intl: ^0.19.0
+  fl_chart:
+  share_plus:
+  sqflite: ^2.3.0
+  path: ^1.8.3
+
 dev_dependencies:
-  isar_generator: ^3.1.0+1
   build_runner: ^2.4.6
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
-  fl_chart:
-  share_plus:
+  
   
 
 flutter:

@@ -1,101 +1,89 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'models/person.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-
 class PersonListItem extends StatelessWidget {
-  final Person person;
+  final Map<String, dynamic> person;
 
-  const PersonListItem({super.key, required this.person});
+  const PersonListItem({
+    super.key,
+    required this.person,
+  });
 
-  Color _getAgeColor(int? age) {
-    if (age == null) return Colors.grey;
+  Color getAgeColor(int age) {
     if (age < 18) return Colors.grey;
-    if (age <= 30) return Colors.green;
-    if (age <= 50) return Colors.orange;
-    if (age <= 70) return Colors.deepOrange;
-    return Colors.red;
+    if (age <= 20) return Colors.green;
+    if (age > 80) return Colors.red;
+
+    // Create gradient between 20-80 years
+    final colors = [
+      Colors.green,
+      Colors.teal,
+      Colors.blue,
+      Colors.purple,
+      Colors.orange,
+      Colors.deepOrange,
+      Colors.red,
+    ];
+    
+    final ageRange = age - 20;
+    final segment = 60 / (colors.length - 1);
+    final colorIndex = (ageRange / segment).floor();
+    
+    if (colorIndex >= colors.length - 1) return colors.last;
+    
+    return Color.lerp(
+      colors[colorIndex],
+      colors[colorIndex + 1],
+      (ageRange % segment) / segment,
+    )!;
   }
 
   @override
   Widget build(BuildContext context) {
-    return ListTile(
-      onTap: () => context.push('/person/${person.id}'),
-      title: SizedBox(
-        width: MediaQuery.of(context).size.width,
-        child: Flex(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
-          direction: Axis.horizontal,
+    final birthDate = DateTime.parse(person['birth_date']);
+    final age = DateTime.now().year - birthDate.year;
+
+    return Card(
+      child: ListTile(
+        onTap: () {
+          context.push('/person/${person['id']}');
+        },
+        title: Text(
+          '${person['first_name_ar']} ${person['last_name_ar']}',
+          style: const TextStyle(
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        subtitle: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Flexible(
-              flex: 2,
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  Text(person.firstNameAr,
-                      style: const TextStyle(fontWeight: FontWeight.bold)),
-                  if (person.firstNameEn != null)
-                    Text(person.firstNameEn!,
-                        style: TextStyle(
-                            color:
-                                Theme.of(context).textTheme.bodySmall?.color)),
-                ],
-              ),
+            Text('${person['first_name_en']} ${person['last_name_en']}'),
+            Text(
+              '${AppLocalizations.of(context)!.voterNumber}: ${person['voter_number'] ?? ''}',
+              style: Theme.of(context).textTheme.bodySmall,
             ),
-            Flexible(
-              flex: 2,
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  Text(person.lastNameAr,
-                      style: const TextStyle(fontWeight: FontWeight.bold)),
-                  if (person.lastNameEn != null)
-                    Text(person.lastNameEn!,
-                        style: TextStyle(
-                            color:
-                                Theme.of(context).textTheme.bodySmall?.color)),
-                ],
-              ),
+          ],
+        ),
+        trailing: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text(
+              person['cnie'],
+              style: Theme.of(context).textTheme.bodyMedium,
             ),
-            Flexible(
-              flex: 2,
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  Text(
-                    person.cnie,
-                    style: const TextStyle(
-                      fontSize: 16,
-                      fontWeight: FontWeight.w800,
-                    ),
-                  ),
-                  Text(
-                    person.voterNumber,
-                    style: const TextStyle(
-                        fontSize: 16, fontWeight: FontWeight.w800),
-                  ),
-                ],
+            const SizedBox(width: 8),
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+              decoration: BoxDecoration(
+                color: getAgeColor(age),
+                borderRadius: BorderRadius.circular(12),
               ),
-            ),
-            Flexible(
-              flex: 1,
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  if (person.age != null)
-                    Text(
-                      '${person.age}',
-                      style: TextStyle(
-                        fontSize: 16,
-                        fontWeight: FontWeight.w800,
-                        color: _getAgeColor(person.age),
-                      ),
-                    ),
-                  Text(
-                    AppLocalizations.of(context)!.age,
-                    style: Theme.of(context).textTheme.bodySmall,
-                  ),
-                ],
+              child: Text(
+                age.toString(),
+                style: const TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ),
           ],

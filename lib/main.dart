@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'services/database_service.dart';
+import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 
 import 'providers/theme_provider.dart';
 import 'router.dart';
@@ -19,12 +19,12 @@ final localeProvider = StateNotifierProvider<LocaleNotifier, Locale>((ref) {
 });
 
 void main() async {
+  sqfliteFfiInit();
+  
   WidgetsFlutterBinding.ensureInitialized();
+  databaseFactory = databaseFactoryFfi;
   await DatabaseService.initialize();
   await DatabaseService.addDummyData();
-
-  final prefs = await SharedPreferences.getInstance();
-
   runApp(const ProviderScope(child: MyApp()));
 }
 

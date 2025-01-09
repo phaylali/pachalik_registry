@@ -301,9 +301,98 @@
     "type": "text"
   },
   "share": "مشاركة",
-"@share": {
-  "description": "Share action",
-  "type": "text"
-}
-
+  "@share": {
+    "description": "Share action",
+    "type": "text"
+  },
+  "voterStatistics": "إحصائيات الناخبين",
+  "@voterStatistics": {
+    "description": "عنوان قسم إحصائيات الناخبين",
+    "type": "text"
+  },
+  "totalVoters": "مجموع الناخبين",
+  "@totalVoters": {
+    "description": "تسمية لإجمالي عدد الناخبين",
+    "type": "text"
+  },
+  "registeredVoters": "الناخبون المسجلون",
+  "@registeredVoters": {
+    "description": "تسمية لعدد الناخبين المسجلين",
+    "type": "text"
+  },
+  "unregisteredVoters": "الناخبون غير المسجلين",
+  "@unregisteredVoters": {
+    "description": "تسمية لعدد الناخبين غير المسجلين",
+    "type": "text"
+  },
+  "clearDatabase": "مسح قاعدة البيانات",
+  "@clearDatabase": {
+    "description": "زر مسح قاعدة البيانات",
+    "type": "text"
+  },
+  "deleteDatabase": "حذف قاعدة البيانات",
+  "@deleteDatabase": {
+    "description": "عنوان نافذة تأكيد حذف قاعدة البيانات",
+    "type": "text"
+  },
+  "deleteDatabaseConfirmation": "هل أنت متأكد من حذف جميع البيانات؟ لا يمكن التراجع عن هذا الإجراء.",
+  "@deleteDatabaseConfirmation": {
+    "description": "رسالة تحذير تظهر عند محاولة حذف قاعدة البيانات",
+    "type": "text"
+  },
+  "civilRegistryNumber": "رقم الحالة المدنية",
+  "@civilRegistryNumber": {
+    "description": "تسمية حقل رقم الحالة المدنية",
+    "type": "text"
+  },
+  "fatherCnie": "بطاقة الأب",
+  "@fatherCnie": {
+    "description": "بطاقة الأب  ",
+    "type": "text"
+  },
+  "motherCnie": "بطاقة الأم",
+  "@motherCnie": {
+    "description": "بطاقة الأم  ",
+    "type": "text"
+  },
+  "gender": "الجنس",
+  "@gender": {
+    "description": "تسمية حقل الجنس",
+    "type": "text"
+  },
+  "maritalStatus": "الحالة الاجتماعية",
+  "@maritalStatus": {
+    "description": "تسمية حقل الحالة الاجتماعية",
+    "type": "text"
+  },
+  "politicalAffiliation": "الانتماء السياسي",
+  "@politicalAffiliation": {
+    "description": "تسمية حقل الانتماء السياسي",
+    "type": "text"
+  },
+  "job": "المهنة",
+  "@job": {
+    "description": "تسمية حقل المهنة",
+    "type": "text"
+  },
+  "nationality": "الجنسية",
+  "@nationality": {
+    "description": "تسمية حقل الجنسية",
+    "type": "text"
+  },
+  "secondNationality": "الجنسية الثانية",
+  "@secondNationality": {
+    "description": "تسمية حقل الجنسية الثانية",
+    "type": "text"
+  },
+  "grandmotherPaternal": "الجدة من الأب",
+  "@grandmotherPaternal": {
+    "description": "تسمية اسم الجدة من جهة الأب",
+    "type": "text"
+  },
+  "grandmotherMaternal": "الجدة من الأم",
+  "@grandmotherMaternal": {
+    "description": "تسمية اسم الجدة من جهة الأم",
+    "type": "text"
+  }
 }

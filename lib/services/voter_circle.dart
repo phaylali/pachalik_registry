@@ -18,9 +18,10 @@ enum VoterCircle {
   final Color color;
   const VoterCircle({required this.color});
 
-  static Color getColorForCircle(String circleNumber) {
-    return VoterCircle.values[int.parse(circleNumber) - 1].color;
-  }
+static Color getColorForCircle(String circleNumber) {
+  int index = (int.parse(circleNumber) - 1) % VoterCircle.values.length;
+  return VoterCircle.values[index].color;
+}
 
   static VoterCircle fromNumber(String number) {
     return VoterCircle.values[int.parse(number) - 1];

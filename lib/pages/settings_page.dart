@@ -4,7 +4,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:go_router/go_router.dart';
 
-import '../main.dart'; // Add this import
+import '../main.dart';
+import '../services/database_service.dart'; // Add this import
 
 class SettingsPage extends ConsumerWidget {
   const SettingsPage({super.key});
@@ -103,7 +104,7 @@ class SettingsPage extends ConsumerWidget {
                         );
                         await Future.delayed(const Duration(seconds: 5));
                         if (context.mounted) {
-                          Navigator.pop(context);
+                          context.pop();
                         }
                       },
                       title: Text(AppLocalizations.of(context)!.syncData),
@@ -116,6 +117,35 @@ class SettingsPage extends ConsumerWidget {
                       onTap: () => context.go('/login'),
                       title: Text(AppLocalizations.of(context)!.logOut),
                       trailing: const Icon(Icons.logout),
+                    ),
+                  ),
+                  const SizedBox(height: 8),
+                  Card(
+                    child: ListTile(
+                      onTap: () => showDialog(
+                        context: context,
+                        builder: (context) => AlertDialog(
+                          title: Text(
+                              AppLocalizations.of(context)!.deleteDatabase),
+                          content: Text(AppLocalizations.of(context)!
+                              .deleteDatabaseConfirmation),
+                          actions: [
+                            TextButton(
+                              onPressed: () => context.pop(),
+                              child: Text(AppLocalizations.of(context)!.cancel),
+                            ),
+                            TextButton(
+                              onPressed: () async {
+                                await DatabaseService.clearDatabase();
+                                context.pop();
+                              },
+                              child: Text(AppLocalizations.of(context)!.delete),
+                            ),
+                          ],
+                        ),
+                      ),
+                      title: Text(AppLocalizations.of(context)!.clearDatabase),
+                      trailing: const Icon(Icons.delete_forever),
                     ),
                   ),
                 ],
