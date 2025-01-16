@@ -65,3 +65,5 @@ A cutting-edge Flutter application that revolutionizes citizen registry manageme
 ## 📜 License
 
 This project is powered by the MIT License 🔓
+
+[![ReadMeSupportPalestine](https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-project.svg)](https://donate.unrwa.org/-landing-page/en_EN)
