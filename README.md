@@ -66,4 +66,7 @@ A cutting-edge Flutter application that revolutionizes citizen registry manageme
 
 This project is powered by the MIT License 🔓
 
+---
+Built with 💖 by Omniversify
+
 [![ReadMeSupportPalestine](https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-project.svg)](https://donate.unrwa.org/-landing-page/en_EN)
